@@ -4,9 +4,12 @@
   "description": "![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tailwind": "tailwindcss -i ./tailwind.css -o ./src/style.css --watch"
   },
   "keywords": [],
   "author": "Atsuno",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
 }
