@@ -1,35 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <title>Frontend Mentor | Profile card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
 
-  80K
-  Followers
+  <body
+    class="font-kumbh flex min-h-full flex-col items-center justify-center bg-rear"
+  >
+    <main class="bg-white flex items-center flex-col">
+      <div class="w-full ">
+        <img src="./images/bg-pattern-card.svg" alt="image"></img>
+      </div>
+      <div>
+        <img class="rounded-full border-4 border-white mt-[-50px]" src="./images/image-victor.jpg" alt="Profile Photo">
+      </div>
+      <div class="py-5 text-center">
+        <h1 class="text-primaly font-bold">Victor Crest <span class=" text-secondly">26</span></h1>
+        <h3>London</h3>
+      </div>
+      <div>
+        <h2>80K</h2>
+        <h3>Followers</h3> <h2>803K</h2> <h3>Likes</h3> <h2>1.4K</h2> <h3>Photos</h3></div>
+    </main>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer class="text-center font-[11px]">
+      Challenge by
+      <a
+        rel="noopener"
+        class="text-by"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+      >
+        Frontend Mentor </a
+      >. Coded by
+      <a class="text-by" href="https://github.com/Atsuno">Atsuno</a>.
+    </footer>
+  </body>
 </html>
